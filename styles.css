@@ -1,5 +1,5 @@
 #title{
-  background-color: #85C1E9 ;
+  background-image: url('https://assets.hongkiat.com/uploads/40-cool-abstract-and-background-photoshop-tutorials/windows-vista.jpg');
 }
 .logo{
   padding: 20px;
@@ -8,7 +8,12 @@
   padding: 0 0% 5% 0%;
   margin:0% 10% 0 10%;
 }
-@media (max-width:1300px){
+@media (max-width:1300px) and (min-width:770px){
+  .edu-col-1{
+    margin-left: 25%;
+  }
+}
+@media (max-width:1300px) {
   .logo{
     text-align: center;
   }
@@ -17,21 +22,24 @@
   }
   .about-head-1{
     font-size: 20px;
-      text-align: left;
-padding:0;
+    position: absolute;
+
+
+            margin-right: 23%;
+
     color:#85C1E9 ;
     position: fixed;
 
-    right:13%;
-
 
   }
+
 
 .about-head-2{
       font-size: 20px;
   text-align: left;
     color:#85C1E9 ;
-    padding:0;
+    position: absolute;
+    margin-left: 20%;
     position: fixed;
 
     right:16%;
@@ -51,12 +59,12 @@ padding:0;
 }
 
 .about-head-1{
-text-align: center;
+  text-align: center;
   color:#85C1E9;
   position: absolute;
   top:1rem;
   background: white;
-  padding: 0 3.5rem 0 3rem;
+  padding: 0 3rem 0 3rem;
 }
 .about-head-2{
 text-align: center;
@@ -95,7 +103,7 @@ text-align: center;
   padding: 2%;
 }
 #services{
-  background-color:  #85C1E9;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c2a1c2a-3796-432c-b00c-ce42bdbe5e44/d4tgoc9-31e89077-3ec6-49c0-82e8-d0b534c02a71.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmMyYTFjMmEtMzc5Ni00MzJjLWIwMGMtY2U0MmJkYmU1ZTQ0XC9kNHRnb2M5LTMxZTg5MDc3LTNlYzYtNDljMC04MmU4LWQwYjUzNGMwMmE3MS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.XSAXZ0spFim3ru7svLyJePDD73v6Vi-39G2CTw2aSPg');
   padding :4%;
 }
 .other-h2{
@@ -129,6 +137,9 @@ text-align: center;
   .edu-col{
     padding-left: 15%;
   }
+  .edu-col-1{
+    padding-left: 15%;
+  }
 }
 .edu-image{
   width:300px;
@@ -145,7 +156,7 @@ text-align: center;
 
 }
 #connect{
-  background-color:  #85C1E9;
+  background-image: url('https://i.stack.imgur.com/ITrUe.jpg');
   padding :4%;
   color:white;
 }
