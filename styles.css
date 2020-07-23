@@ -36,10 +36,8 @@ margin-left: -4%;
 
 .about-head-2{
       font-size: 15px !important;
-  text-align: left;
-    color:#85C1E9 ;
 
-    margin-left: 20%;
+    margin-left: 17%;
     right:16%;
   }
 
@@ -140,13 +138,16 @@ text-align: center;
     width:300px;
     height: 300px;
     padding: 10%;
-    margin-left: 3%;
+    margin-left: 2%;
   }
   .main-head{
     font-size:1.05rem;
   }
   .edu-image{
-    padding-left: 5% !important;
+    padding-left: 2% !important;
+  }
+  .caption{
+    padding:5%;
   }
 }
 .edu-image{
