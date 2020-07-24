@@ -166,7 +166,7 @@ margin-left: -100px;
       font-size: 15px !important;
 padding: 0 0.5rem 0 0.5rem !important;
   left:50%;
-  margin-left: -100px;
+  margin-left: -95px;
   
 
   }
@@ -199,13 +199,14 @@ padding: 0 0.5rem 0 0.5rem !important;
     width:300px;
     height: 300px;
     padding: 10%;
-    margin-left: 2.95%;
+    left:50%;
+   
   }
   .main-head{
     font-size:1.05rem;
   }
   .edu-image{
-    margin-left: 3% !important;
+    left:50%;
   }
   .caption-1{
     padding:5% !important;
