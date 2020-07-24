@@ -161,7 +161,10 @@ padding: 0 0.5rem 0 0.5rem !important;
 margin-left: -100px;
 }
 
-
+.main-head{
+  font-size: 1.15rem;
+  }
+  
 .about-head-2{
       font-size: 15px !important;
 padding: 0 0.5rem 0 0.5rem !important;
@@ -191,7 +194,7 @@ padding: 0 0.5rem 0 0.5rem !important;
 .service-text{
 
   text-align: center;
-  font-size: 14px !important;
+  font-size: 15px !important;
   padding: 0.75rem !important;
 
 }
