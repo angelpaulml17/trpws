@@ -21,32 +21,31 @@
     background-size: cover;
 
   }
-  .neons {
-   margin-top: 0rem;
-   text-align: center;
-   font-family: 'Codystar';
-}
-
-.neons h1 {
-  font-size: 6rem;
-  text-align: center;
-   font-weight: bold;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-     from {
-      color: #fff;
-    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  .title-1 {
+  	font-family: "Montserrat";
+  	text-align: center;
+  	color: #FFF;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100vh;
+  	letter-spacing: 1px;
+    margin: -20% -10%;
   }
 
-  to {
-     color: gray;
-    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  .about-title {
+  	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  	background-size: cover;
+  	color: transparent;
+  	-moz-background-clip: text;
+  	-webkit-background-clip: text;
+  	text-transform: uppercase;
+  	font-size: 120px;
+  	line-height: .75;
+  	margin: 10px 0;
+
   }
-}
   .container-fluid{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -122,6 +121,12 @@
 @media (max-width:1300px) {
         .logo{
           text-align: center;
+        }
+    .about-title{
+          font-size: 45px;
+        }
+        .title-1{
+          height: 40vh;
         }
         .neons h1 {
           font-size: 4rem;}
